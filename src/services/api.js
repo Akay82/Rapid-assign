@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:5000/api',  // Adjust this if your backend is hosted elsewhere
+    baseURL: 'https://rapid-assignment.onrender.com/',  // Adjust this if your backend is hosted elsewhere
 });
 
 export const getSamples = () => API.get('/RQ_Analytics');
