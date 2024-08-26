@@ -1,0 +1,30 @@
+/* CustomerLifetimeValueByCohort.css */
+.cohort-container {
+    width: 750px;
+    height: 350px;
+    text-align: center;
+    margin-left: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    background-color: white;
+    padding: 10px 0px 70px 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.cohort-container:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.bar-chart{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,65 @@
+/* GraphicCustomer.css */
+
+/* Container for the map */
+.map-container {
+    width: 465px;
+    height: 300px;
+    margin-top: -85px;
+    margin-left:725px;
+    justify-content: center;
+    padding: 20px;
+    background-color: white; /* Light background for contrast */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners for a modern look */
+}
+
+.map-container:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* Heading style */
+.map-container h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: gray; /* Dark color for readability */
+}
+
+/* Map itself */
+.leaflet-container {
+    width: 450px;
+    margin-left: 10px;
+    height: 250px; /* Set a fixed height for the map */
+    border-radius: 10px; /* Rounded corners for the map */
+    z-index: 0;
+}
+
+/* Popup style */
+.leaflet-popup-content {
+    font-size: 14px;
+    color: #333; /* Dark color for text inside the popup */
+}
+
+/* Customizing the marker icon size */
+.leaflet-marker-icon {
+    width: 25px;
+    height: 41px;
+}
+
+/* Customizing the marker shadow size */
+.leaflet-marker-shadow {
+    width: 41px;
+    height: 41px;
+}
+
+/* Making sure the map is responsive */
+@media screen and (max-width: 768px) {
+    .map-container {
+        padding: 10px;
+    }
+
+    .leaflet-container {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+}

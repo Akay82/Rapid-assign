@@ -1,0 +1,32 @@
+.customer-chart-container {
+    width: 35%; /* Reduce the width of the chart */
+    height: 250px; /* Set a fixed height */
+   margin-top:-440px;
+   margin-left:720px;
+    background-color: white; /* Light background color */
+    padding: 0px 20px 70px 20px;
+    border-radius: 10px;
+    position:absolute;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; /* Soft shadow for the container */
+}
+.customer-chart-container:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.customer-chart-container h5 {
+color: gray;
+text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    background-color: #e9f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Soft shadow for each list item */
+}
